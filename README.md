@@ -1,4 +1,4 @@
-# Rabbi Ovadiah Yosef Zmanim Apps
+# Rabbi Ovadiah Yosef Zmanim Website and Apps
 
 This repository is the main hub that links to the other repositories that can help you find out zmanim according to Rabbi Ovadiah Yosef ZT"L.
 
