@@ -28,8 +28,6 @@ Main view of the zmanim:
 
 ![alt text](https://play-lh.googleusercontent.com/46VfUTuZLlA_ogFYMP0oLUbtgQtsj-D3lHNDnS5LvqVwwgXr4Qh0p8d0ZiJg-z69IEY=w2560-h1440-rw)
 
-Click this link to download the app from the [Google Play Store!](https://play.google.com/store/apps/details?id=com.EJ.ROvadiahYosefCalendar)
-
 # Explanation of how the zmanim are calculated:
 Dawn - Alot HaShachar:
 
