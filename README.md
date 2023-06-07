@@ -18,7 +18,7 @@ The goal of this app is to recreate the "Luach HaMaor Ohr HaChaim" calendar that
 
 <img src="https://i.imgur.com/QqGAtTB.jpg" height="750">
 
-In order to create these apps, I needed an API that would give me the times for sunrise and sunset everyday (since all the other zmanim are based on these times). I was recommended the well known [KosherJava](https://github.com/KosherJava/zmanim) Package, and that is the basis for all of these app's zmanim (time) calculations.
+In order to create these apps, I needed an API that would give me the times for sunrise and sunset everyday (since all the other zmanim are based on these times). I was recommended the well known [KosherJava](https://github.com/KosherJava/zmanim) Package, and that is the basis for all of these app's zmanim (time) calculations. For the website version, I used the [KosherZmanim](https://github.com/BehindTheMath/KosherZmanim) Package. And for the IOS version, I used the [KosherCocoa](https://github.com/MosheBerman/KosherCocoa) Package.
 
 The app can display the zmanim/times in hebrew and english but is primarily made for english speakers.
 
@@ -107,11 +107,15 @@ Midnight - Chatzot Layla:
 
 This time is calculated as 6 zmaniyot/seasonal hours after sunset. The GR"A calculates a zmaniyot/seasonal hour by taking the time between sunrise and sunset (elevation included) and divides it into 12 equal parts. In this case, we use sunrise for the next day.
 
-There are some opinions that say that the zmanim of Rabbi Ovadiah Yosef ZT"L that are calculated by the Ohr Hachaim calendar are only accurate for the land of Israel, and that for the rest of the world, the zmanim are supposed to be calculated by the degrees of the sun like the Ashkenazim (their reason being because that is more accurate according to nature since there is a curvature of the earth the higher you are on the globe). Some opinions even say that we should only use the degree calculations that the Ashkenazim use to find out the length of a shaah zmanit. However, I have personally spoken with Rabbi David Yosef Shlita (on January/17/2023 in NY), and he has told me personally that these opinions are incorrect. Therefore, the correct way to calculate the zmanim of Rabbi Ovadiah Yosef ZT"L is like how the Ohr Hachaim calendar does it in Israel (which is the same way that this website does it) FOR EVERYWHERE IN THE WORLD.
+UPDATE: I have recently been in touch with a Rabbi by the name of Rabbi Lior Dahan Shlita, he is the Author of the "Amudei Horaah Mishna Berurah". He has also looked into zmanim and he has created his own "Amudei Horaah"
+Calendar. It is similar to the Ohr Hachaim calendar except the zmanim for alot and tzeit are skewed based on the degrees of the sun. To explain: If normally Alot is 72 zmaniyot minutes before sunrise, Rabbi Dahan holds that we need to find out how many minutes are between alot and sunrise on an equal day (equinox). To do this, we use degrees based on Netanya, Israel (since the gemara equates Iraq and Israel as the same area). Once you have those amounts of minutes, you make them zmaniyo based on sunrise to sunset. For example, alot in New York is around 81 zmaniyot minutes before sunrise. He bases these calculations off the Halacha Berurah (Siman 261, halacha 13). Therefore, with the Rabbi's help, I have added his zmanim to all the applications.
+
+I asked Rabbi Benizri Shlita, author of the Ohr HaChaim calendar, if Rabbi Ovadiah Yosef ZT"L would hold like the above Halacha Berurah and he told me that, in his opinion, Rabbi Ovadiah would disagree with this Halacha Berurah. Since it seems like an argument, I have left the applications by default like the Ohr HaChaim calendar, and the user's can change it to Amudei Horaah mode in the settings.
 
 
 # Introduction to the calendar in Israel:
 
+<img src="http://www.zmanim-diffusion.com/images/1.jpg" height="650">
 <img src="https://i.imgur.com/udfwy3R.jpg" height="650">
 <img src="https://i.imgur.com/ureV4p4.jpg" height="650">
 <img src="https://i.imgur.com/HXEzXvr.jpg" height="650">
