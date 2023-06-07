@@ -1,6 +1,6 @@
 # Rabbi Ovadiah Yosef Zmanim Website and Apps
 
-This repository is the main hub that links to the other repositories that can help you find out zmanim according to Rabbi Ovadiah Yosef ZT"L.
+This repository is the main hub that links to the other repositories that can help you find zmanim according to Rabbi Ovadiah Yosef ZT"L.
 
 <b>Google Play Store and source code:</b>
 
@@ -8,13 +8,13 @@ This repository is the main hub that links to the other repositories that can he
 
 <b>App Store and source code:</b>
 
-<img src="http://1radionews.com/wp-content/uploads/app_store_coming_soon.png" alt="Download on the App Store" width="240px">
+<a href="https://apps.apple.com/app/rabbi-ovadiah-yosef-calendar/id6448838987"><img alt="Get it on the App Store" src="https://ci6.googleusercontent.com/proxy/HrtBTHlFE3VpRkzLfRwnYbJjCLtCpmKOIV__qk9k9mj7e7PSZF2X0L7mzR63nCIfqbnUujbn-dhiq-LwYUqdcpSLg_ItRhdEQJ0wP438309hcA=s0-d-e1-ft#https://static.licdn.com/aero-v1/sc/h/76yzkd0h5kiv27lrd4yaenylk" width="250px"></a><a href="https://github.com/Elyahu41/RabbiOvadiahYosefCalendarIOSApp"> <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="62px"></a>
 
 <b>Website and source code:</b>
 
 <a href="https://elyahu41.github.io/RabbiOvadiahYosefCalendar/"><img src="https://www.kindpng.com/picc/m/36-363991_www-icon-png-transparent-background-website-icon-png.png" width="124px"></a> <a href="https://github.com/Elyahu41/Elyahu41.github.io/tree/master/RabbiOvadiahYosefCalendar"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="62px"></a>
 
-The goal of these applications are to recreate the Ohr HaChaim calendar that follows Rabbi Ovadiah Yosef ZT"L which is widespread in Israel:
+The goal of this app is to recreate the "Luach HaMaor Ohr HaChaim" calendar that is widespread in Israel. This calendar is special because Rabbi Ovadiah Yosef ZT"L oversaw it's creation and used the calendar himself until he passed:
 
 <img src="https://i.imgur.com/QqGAtTB.jpg" height="750">
 
@@ -25,6 +25,8 @@ The app can display the zmanim/times in hebrew and english but is primarily made
 The only zman/time that could not be computed by the KosherJava API is the sunrise time that the Ohr HaChayim calendar uses. They explain in the calendar introduction that they take the sunrise times from a calendar called, "Luach Bechoray Yosef". That calendar calculates the time for sunrise by taking into account the geography of the land around that area and finding when the earliest time for sunrise is (based on the introduction to Chaitables.com). While not impossible, this would take a massive toll on a mobile phone's processor and memory, therefore, the app does not support it. However, I discovered that the creator of this calendar made a website [ChaiTables.com](http://chaitables.com) to help people use his algorithm for sunrise all over the world and create a 12 month table based on your input. I added the ability to download these times in the app with your own specific parameters. (I highly recommend that you see the introduction on chaitables.com.)
 
 Main view of the zmanim:
+
+![alt text](https://i.imgur.com/F9M29Zt.png)
 
 ![alt text](https://play-lh.googleusercontent.com/46VfUTuZLlA_ogFYMP0oLUbtgQtsj-D3lHNDnS5LvqVwwgXr4Qh0p8d0ZiJg-z69IEY=w2560-h1440-rw)
 
